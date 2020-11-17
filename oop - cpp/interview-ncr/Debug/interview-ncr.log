@@ -1,0 +1,7 @@
+﻿  Customer.cpp
+C:\Users\barak\Desktop\Work\interviews\ncr\interview-ncr\interview-ncr\Customer.cpp(26,33): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\barak\Desktop\Work\interviews\ncr\interview-ncr\interview-ncr\Customer.cpp(30,33): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Product.cpp
+  main.cpp
+  Generating Code...
+  interview-ncr.vcxproj -> C:\Users\barak\Desktop\Work\interviews\ncr\interview-ncr\Debug\interview-ncr.exe

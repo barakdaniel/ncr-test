@@ -1,0 +1,26 @@
+-- 1. Get all posts of a specific Blog: -- 
+ 
+SELECT p.* from posts p
+WHERE p.blog_id = '14532147831';
+
+
+
+
+
+
+
+-- 2. Get all comments of a specific Post: -- 
+
+SELECT c.* from comments c
+WHERE c.post_id = '41264782316';
+
+
+
+
+
+
+
+-- 3. Insert a new comment: -- 
+
+INSERT INTO comments (posterName, content, post_id)
+VALUES ('Barak', 'Great post, learned a lot from it!', 41264782316);
