@@ -12,7 +12,7 @@ Product::Product(float price, std::string name) {
 
 void Product::setPrice(float newPrice) {
 	if (newPrice < 0)
-		throw "Bad price parameter";
+		throw std::string("Bad price parameter");
 	
 	_price = newPrice;
 }
